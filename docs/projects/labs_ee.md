@@ -1,0 +1,1 @@
+If you have a Google Earth Engine account, [accept this repository](https://code.earthengine.google.com/?accept_repo=users/samapriya/education-research). The tutorials are generalized and the repo contains more specific tutorials for PlanetScope image collection.

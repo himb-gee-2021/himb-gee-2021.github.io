@@ -1,2 +1,2 @@
-# himb-gee-2021.github.io
-Main site
+# himb-summercourse-2021.github.io
+Main page
