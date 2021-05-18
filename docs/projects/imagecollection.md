@@ -13,17 +13,32 @@ As between the parties, Customer owns all Intellectual Property Rights
 in Customer Data, Customer Code, and Application(s), and Google owns
 all Intellectual Property Rights in the Services and Software.```**
 
+<center>![ee_image_collection](https://user-images.githubusercontent.com/6677629/118183847-3957ff00-b400-11eb-8ba7-03b83b421229.gif)</center>
+
 These image collection as well as individual imaegs again have defined data type,scales and projections along with some default properties such as an index and ID among other system properties. So we can query these properties, print them and add them
 
 ``` js
-var filtered=ee.ImageCollection("projects/sat-io/open-ca/ps4bsr")
-.filterDate('2018-06-01','2018-07-30')//Filter for June to July End
-print('Date Filter Only',filtered.size())
+var s2 = ee.ImageCollection("COPERNICUS/S2_SR");
+var geometry =
+    ee.Geometry.Polygon(
+        [[[-89.79297430041262, 29.677212347812258],
+          [-89.79297430041262, 28.850584616352855],
+          [-88.91681463244387, 28.850584616352855],
+          [-88.91681463244387, 29.677212347812258]]], null, false);
+var vis = {"opacity":1,"bands":["B8","B3","B2"],"min":1,"max":2870,"gamma":1.4140000000000001};
 
-var filtered=ee.ImageCollection("projects/sat-io/open-ca/ps4bsr")
-.filterDate('2018-06-01','2018-07-30')//Filter for June to July End
-.filterMetadata('cloud_cover','less_than',0.1)//Cloud cover less than 10%
-print('Multi Filter',filtered.size())
+//Let's constrain the Sentinel-2 SR collection by our geometry & a cloudy pixel percentage metadata
+var collection = s2
+.filter(ee.Filter.bounds(geometry))
+.filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',5))
+
+print(collection.size())  //Prints the size of the collection
+//Remember the collection has been constrained to our geometry & cloudy pixel %
+
+//Print & add the first element from the collection
+Map.centerObject(geometry,10)
+print('First image from Collection',collection.first())
+Map.addLayer(collection.first().clip(geometry),vis,'First image from Collection')
 ```
 
-To have a look at all of the raster catalog you can find them [listed here](https://code.earthengine.google.com/datasets) or you can try the [list I update every week](https://github.com/samapriya/Earth-Engine-Datasets-List)
+To have a look at all of the raster catalog you can find them [listed here](https://code.earthengine.google.com/datasets)

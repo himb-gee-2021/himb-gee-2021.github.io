@@ -93,25 +93,21 @@ markdown_extensions:
 # Page tree
 nav:
   - Introduction: index.md
-  - Planet Imagery: projects/planet-asset.md
-  - Image & Image Collections in Earth Engine:
-    - Images: projects/img.md
-    - Image Collection: projects/imagecollection.md
   - Getting Started:
-    - Setting up your Accounts: setup/setup.md
-    - Basic Housekeeping and Setup: setup/housekeeping.md
-    - Lab space: setup/lab.md
-  - Pipelines:
-    - Downloading Planet Images: projects/downloading-images.md
-    - Getting Images into Google Earth Engine: projects/getting-images-ee.md
-  - Working with API(s):
-    - Data API: projects/data_api.md
-    - Ordersv2 API: projects/orders.md
-  - Analytics in Earth Engine:
-    - Labs: projects/labs_ee.md
-    - Functions in Earth Engine: projects/functions.md
-    - Reducers and Charts: projects/reducers.md
-    - Edge Detection: projects/edges.md
-  # - Datasets and Addons: projects/tools.md
+    - Setting up your Accounts: projects/setup.md
+    - Basic Housekeeping and Setup: projects/housekeeping.md
+    - Planet Imagery: projects/planet-asset.md
+    - Lab space: projects/labs_ee.md
+  - Earth Engine Assets:
+    - Images: projects/images.md
+    - Image Collection: projects/imagecollection.md
+    - Feature Collection: projects/feature_collection.md
+  - Getting Started with GEE:
+    - Mosaics and composites: projects/mosaics_composite.md
+    - Functions & Mapping: projects/functions.md
+    - Collection Maps & Indices: projects/indices.md
+    - Exporting Image & Visualization: projects/export.md
+  - Community Catalogs & Data Share:
+    - Community Datasets: projects/community.md
   - Citations: citations.md
-  - Contact Us: contact.md
+  - Contact: contact.md

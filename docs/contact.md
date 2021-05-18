@@ -1,12 +1,9 @@
-# Contact Us
+# Contact
 
-#### Contact me directly:
+#### Contact me directly
 ```
 Samapriya Roy: samapriya.roy@gmail.com
 ```
+Follow me on twitter to get updates on new projects: [![Twitter URL](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/intent/follow?screen_name=samapriyaroy)
 
-#### Reach out for support at
-**support@planet.com**
-
-#### Ask questions on our [community page]
-[Community Page](https://support.planet.com/hc/en-us/community/topics)
+Or find me on LinkedIn: [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samapriya/)
