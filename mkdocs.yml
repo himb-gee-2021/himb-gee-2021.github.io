@@ -107,6 +107,8 @@ nav:
     - Functions & Mapping: projects/functions.md
     - Collection Maps & Indices: projects/indices.md
     - Exporting Image & Visualization: projects/export.md
+  - Allen Coral Atlas in GEE:
+    - Accessing Allen Coral Atlas: projects/aca.md
   - Community Catalogs & Data Share:
     - Community Datasets: projects/community.md
   - Citations: citations.md

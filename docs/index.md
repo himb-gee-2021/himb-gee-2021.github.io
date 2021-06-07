@@ -8,7 +8,9 @@ June 2 -10th 2021
 
 ![eruption_kilauea_hawaii_s109_20201221T233508Z_rgb_gallery_geo-1-full](https://user-images.githubusercontent.com/6677629/118661284-96630480-b7b4-11eb-87df-bc6e06e086d4.jpg)
 ```
-Big Island, Hawaii,Dec 21, 2020. Source: Skysat Shortly after nightfall on December 20, 2021, lava began to pour out of fresh cracks in the walls of Halemaʻumaʻu crater on Kilauea Volcano’s summit. Only hours later the lava had pooled on the crater floor, vaporizing the small lake that formed after lava drained from the summit in 2018. This high-resolution SkySat image shows lava cascading down the sides of Halemaʻumaʻu and flowing into the newly-formed lava lake, accompanied by vigorous emissions of volcanic gases.
+Big Island, Hawaii,Dec 21, 2020. Source: Skysat Shortly after nightfall
+on December 20, 2021 lava began to pour out of fresh cracks in the walls
+of Halemaʻumaʻu crater on Kilauea Volcano’s summit.
 ```
 
 #### Before the Module
