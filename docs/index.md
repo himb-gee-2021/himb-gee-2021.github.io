@@ -6,12 +6,8 @@ June 2 -10th 2021
 
 **Remote Sensing Module: Google Earth Engine and Imagery**
 
-![eruption_kilauea_hawaii_s109_20201221T233508Z_rgb_gallery_geo-1-full](https://user-images.githubusercontent.com/6677629/118661284-96630480-b7b4-11eb-87df-bc6e06e086d4.jpg)
-```
-Big Island, Hawaii,Dec 21, 2020. Source: Skysat Shortly after nightfall
-on December 20, 2021 lava began to pour out of fresh cracks in the walls
-of Halemaʻumaʻu crater on Kilauea Volcano’s summit.
-```
+![whitsun_reef_south_china_sea_crop](https://user-images.githubusercontent.com/6677629/121243863-ed9b4880-c839-11eb-9633-cd4c15a52074.jpg)
+
 
 #### Before the Module
 
